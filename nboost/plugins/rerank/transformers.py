@@ -57,7 +57,7 @@ class PtTransformersRerankPlugin(RerankModelPlugin):
         :return: Encoded tokens
         """
         inputs = [self.tokenizer.encode_plus(
-            query, choice, add_special_tokens=True, return_token_type_ids=True, max_length=self.max_seq_len
+            query, choice, add_special_tokens=True, return_token_type_ids=True, max_length=self.max_seq_len, truncation=True
             ) for choice in choices]
 
         max_len = min(max(len(t['input_ids']) for t in inputs), self.max_seq_len)

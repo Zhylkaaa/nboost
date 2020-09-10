@@ -1,9 +1,9 @@
-
 # class => module
 MODULE_MAP = {
     'ShuffleRerankPlugin': 'plugins.rerank.shuffle',
     'PtTransformersRerankPlugin': 'plugins.rerank.transformers',
-    'PtDistilBertQAModelPlugin': 'plugins.qa.distilbert'
+    'PtDistilBertQAModelPlugin': 'plugins.qa.distilbert',
+    'AutoQAModelPlugin': 'plugins.qa.auto'
 }
 
 # image => directory
