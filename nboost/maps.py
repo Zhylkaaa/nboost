@@ -3,7 +3,8 @@ MODULE_MAP = {
     'ShuffleRerankPlugin': 'plugins.rerank.shuffle',
     'PtTransformersRerankPlugin': 'plugins.rerank.transformers',
     'PtDistilBertQAModelPlugin': 'plugins.qa.distilbert',
-    'AutoQAModelPlugin': 'plugins.qa.auto'
+    'AutoQAModelPlugin': 'plugins.qa.auto',
+    'AllenNLPQAModelPlugin': 'plugins.qa.allennlp-qa'
 }
 
 # image => directory
