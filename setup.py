@@ -36,7 +36,7 @@ setup(
     extras_require={
         'pt': ['torch', 'transformers==2.7.0'],
         'tf': ['tensorflow>=2.1.0', 'sentencepiece'],
-        'allen': ['allennlp==1.1.0', 'allennlp_models==1.1.0', 'torch==1.6.0'],
+        'allen': ['allennlp==1.1.0', 'allennlp_models==1.1.0', 'torch'],
         'all': ['torch', 'tensorflow>=2.1.0', 'transformers==2.7.0'],
     },
     entry_points={'console_scripts': [
